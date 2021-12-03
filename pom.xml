@@ -14,7 +14,7 @@
 	<name>Cpu_Mech</name>
 	<description>Cpu_Makes</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>8</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
