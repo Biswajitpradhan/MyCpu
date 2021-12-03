@@ -30,12 +30,14 @@ public class MainController {
 	}
 
 	@RequestMapping("/")
+        @ResponseBody
 	String indexPage(HttpSession session) {
-		if(session.getAttribute("id")==null) {
-			return "Signin";
-		}
+		//if(session.getAttribute("id")==null) {
+		//	return "Signin";
+		//}
 		
-		return "redirect:home";
+		//return "redirect:home";
+                return "hii";
 	}
 	
 	@PostMapping("/signin")
