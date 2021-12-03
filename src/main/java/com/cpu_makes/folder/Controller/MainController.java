@@ -29,7 +29,7 @@ public class MainController {
 		this.implService=implService;
 	}
 
-	@RequestMapping("/")
+	@RequestMapping("/index")
 	String indexPage(HttpSession session) {
 		//if(session.getAttribute("id")==null) {
 		//	return "Signin";
